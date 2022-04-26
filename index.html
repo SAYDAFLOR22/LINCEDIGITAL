@@ -1,33 +1,190 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Sesion 01</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
-    <!-------------------------ESTILO DE BOOTSTRAP--------->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/main.css">
+  <title>LinceDigital</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-------------------------------------------------------------------------------ESTILO DE BOOTSTRAP--------------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
-
 <body>
-
-    
-                
-
-                <!--Inicio insertando un video-->
-                <iframe src="https://www.youtube.com/embed/5EwgbpnB77s">
-                </iframe>
-                <!--Fin insertando un video-->
-
-            </div>
+  <!------------------------menu de  navegacion----------------->
+  <header class="  encabezado">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 logo">
+          <h2 class="text-center logo">LinceDigital</h2>
         </div>
+        <div class="col-md-8" style="padding: 0px; margin: 0px;">
+          <div class="menu-navegacion">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">PRINCIPAL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PROYECTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">CONCTACTENOS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+   </div>
+  </header>
+
+  <!------------------------------------carrusel------------------>
+
+  <section class="pricipal">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/fondo 3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>BIENVENIDOS A LINCEDIGITAL</h5>
+            <p>
+              LinceDigital es una empresa de marketing digital,
+               que nace con el objetivo de poner en contacto a personas y dar  acceso a empresas y clientes,
+               dando nuevas oportunidades de negocio, mediante el marketing digital.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/fondo.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5> CONOCENOS MEJOR</h5>
+            <p>Esta página web es  útil para las compañías, clientes y negocios que buscan encontrar  
+              profesionales que mejor encajen a sus necesidades.
+               Todo esto gracias a la información que  compartimos, mediante el marketing digital, gracias a la formación y experiencia laboral de  nuestra empresa.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/fondo2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5> ESTAMOS CONTIGO</h5>
+            <p>Porque sabemos que todos los proyectos, 
+              por grandes o pequeños necesitan tener una personalidad y
+               presencia en el mercado virtual.
+               El marketing digital es primordial  ya que reflejan 
+               lo que quieres mostrar y sobre todo lo que el público objetivo quiere comprar.​ </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <!-----------------------------quienes somos---------comlumnas----------------------------------->
+  <section class="nosotros">
+    <h2 class="text-center"> NOSOTROS</h2>
+    <p class="text-center">La vision de LinceDigital  es ubicarse  entre los
+       10 mejores puestos en el implacable mercado  del marketing digital, 
+       destacando  entre la competencia, logrando así, causar el mayor impacto
+        posible para captar, fidelizar y generar vínculos con el mayor número 
+        de personas.
+    </p>
+    <br>
+  <div class="container px-4">
+    <div class="row gx-5">
+      <div class="col">
+       <img src="./img/perfil1_orlando.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="col info">
+        <h2>MAURI</h2>
+        <p>Profesional en Ciencias Publicitarias, Marketing y Gestión Comercial, 
+          con formación Académica en el Instituto de CERTUS – IPP ( Lima ).
+           Docente en Instituciones de Marketing y Publicidad en la ciudad de
+            Lima – 2005-2010 ( Leo Burnett, Instituto de Arte y Diseño IPAD, IPP, Toulousse 
+            Lautrec, Universidad Simon Bolivar entre otras).</p>
+      </div>
+    </div>  
+    <br>
+    <div class="row gx-5">
+      <div class="col info">
+        <h2>SAYDA</h2>
+       <p>Comunicador y fotógrafo formado en el Instituto CERTUS con un
+          diplomado en Fotografía Publicitaria en el Centro de la Imagen de Lima.
+          Capacitación en México sobre técnica fotográfica. Ganador del concurso fotográfico Rutas y Rutinas organizado por el Colectivo Habitad 207 bajo el respaldo del Colegio de Arquitectos del Perú, 
+         segundo lugar en el Concurso Nacional de Fotografía Documental Espacio/Tiempo.</p>
+      </div>
+      <div class="col">
+        <img src="./img/perfil-sayda.JPG" class="img-thumbnail" alt="...">
+      </div>
+    </div> 
+  </div>
+  </section>
+  <br>
+  <!-------------------------------nuestros proyectos------------------------------------->
+  <section class="proyectos">
+    <div class="tutulo">
+      <div class="container-fluid">
+       
+      <h2 class="text-center"> PROYECTOS</h2>
+        <div class="row">
+          <div class="col order-last">
+            <img src="./img/proyecto-1.jpg" class="img-thumbnail" alt="...">
+            <p>Plataformas</p>
+          </div>
+          <div class="col">
+            <img src="./img/proyecto-2.jpg" class="img-thumbnail" alt="...">
+            <p>Paginas Web</p>
+          </div>
+          <div class="col order-first">
+            <img src="./img/proyecto-3.webp" class="img-thumbnail" alt="...">
+            <p> Aplicaciones</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-----------------------------------------contactatos---------------------------------------->
+  <section class=" contactos container">
+    <h2 class="text-center"> CONCTACTENOS</h2>
+    <form>
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="text-center">TRABAJEMOS JUNTOS</h2>
+         <img src="./img/contactos.JPG" alt="">
+        </div>
+        <div class="col-md-6">
+          <label for="exampleFormControlTextarea1">Nombres:</label>
+          <input type="text" class="form-control" placeholder="Nombres">
+          <label for="exampleFormControlTextarea1">Apellidos:</label>
+          <input type="text" class="form-control" placeholder="Apellidos">
+          <label for="exampleFormControlTextarea1">Correo:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label for="exampleFormControlTextarea1">Asunto:</label>
+          <input type="text" class="form-control" placeholder="Asunto">
+          <br><div class="form-group">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje...."></textarea>
+            <br>
+            <button type="submit" class="btn btn-primary mb-2">ENVIAR</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </section.>
+  
+  <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-</body>
-
 </html>

@@ -1,0 +1,102 @@
+/*------------------------estilos generales------------------*/
+*{
+  border: 1px crimson;
+  margin:0px;
+  padding: 0px;
+}
+body{
+  margin: 0%;
+  top: 0%;  
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.nosotros, .proyectos , .contactos{
+  margin: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/*-----------------------------menu de navegacion---------------------------------*/
+.encabezado{
+  background-color: white;
+}
+.encabezado ul li{
+  width: 250px;
+  height: 50px;
+  padding-top: 20px;
+  background-color: white;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+}
+.nav-link{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.logo{
+  background:black ;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  
+}
+.logo h2{
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*----------------------------carrusel----------------*/
+.pricipal .carousel-item img {
+  height: 700px;
+}
+.pricipal h5{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pricipal p{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*-------------------------------nosotros---------*/
+
+.nosotros{
+  font-size:25px ;
+}
+.nosotros h2{
+ font-size: 50px;
+}
+.nosotros img{
+  width: 300px;
+  height: 300px;
+}
+/*----------------------proyectos-----------------------*/
+.proyectos{
+  background: white;
+  margin: 0px;
+  padding: 0px;
+  height: 600px;
+  color: black;
+  font-size: 50px;
+  text-align: center;
+}
+.proyectos h2{
+  font-size: 50px;
+}
+.proyectos img{
+  width: 500px;
+  height: 400px;
+}
+/*----------------------contactenos-----------------------*/
+.contactos label{
+  font-size: 30px;
+}
+.contactos h2{
+  font-size: 50px;
+}
+.contactos button{
+  background-color: rgb(150, 7, 7);
+  color: rgb(243, 243, 243);
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+}
